@@ -1,0 +1,232 @@
+{
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "title": "Dr. Joshua Oparachukwu — Performance Psychologist",
+      "description": "Professional performance psychology services for peak mental optimization",
+      "component": "index",
+      "sections": [
+        "hero",
+        "pillars",
+        "results",
+        "testimonials",
+        "youtube",
+        "signup",
+        "research",
+        "case-studies",
+        "about",
+        "services",
+        "skeptical",
+        "final-cta"
+      ]
+    },
+    {
+      "id": "case-study-01",
+      "path": "/case-studies/cs01",
+      "title": "Case Study 01 - Performance Enhancement",
+      "description": "Detailed case study on performance psychology interventions",
+      "component": "case-study-detail",
+      "parent": "case-studies",
+      "layout": "case-study-full"
+    },
+    {
+      "id": "case-study-02",
+      "path": "/case-studies/cs02",
+      "title": "Case Study 02 - Mental Resilience",
+      "description": "Case study focusing on mental resilience building",
+      "component": "case-study-detail",
+      "parent": "case-studies",
+      "layout": "case-study-full"
+    },
+    {
+      "id": "case-study-03",
+      "path": "/case-studies/cs03",
+      "title": "Case Study 03 - Peak Performance",
+      "description": "Peak performance achievement case study",
+      "component": "case-study-detail",
+      "parent": "case-studies",
+      "layout": "case-study-full"
+    },
+    {
+      "id": "services",
+      "path": "/services",
+      "title": "Services - Performance Psychology",
+      "description": "Professional psychology services offered",
+      "component": "services-page",
+      "sections": [
+        "services-hero",
+        "service-details",
+        "booking-cta"
+      ]
+    },
+    {
+      "id": "about",
+      "path": "/about",
+      "title": "About Dr. Joshua Oparachukwu",
+      "description": "Biography and professional background",
+      "component": "about-page",
+      "sections": [
+        "about-hero",
+        "about-content",
+        "credentials",
+        "research-highlights"
+      ]
+    },
+    {
+      "id": "research",
+      "path": "/research",
+      "title": "Research & Publications",
+      "description": "Academic research and published works",
+      "component": "research-page",
+      "sections": [
+        "research-hero",
+        "publications",
+        "ongoing-research"
+      ]
+    },
+    {
+      "id": "contact",
+      "path": "/contact",
+      "title": "Contact - Get in Touch",
+      "description": "Contact Dr. Joshua Oparachukwu",
+      "component": "contact-page",
+      "sections": [
+        "contact-form",
+        "contact-info"
+      ]
+    },
+    {
+      "id": "booking",
+      "path": "/booking",
+      "title": "Book a Consultation",
+      "description": "Schedule a consultation session",
+      "component": "booking-page",
+      "sections": [
+        "booking-selector",
+        "booking-form"
+      ],
+      "modal": true
+    },
+    {
+      "id": "privacy",
+      "path": "/privacy",
+      "title": "Privacy Policy",
+      "description": "Privacy policy and data protection",
+      "component": "policy-page",
+      "template": "legal"
+    },
+    {
+      "id": "terms",
+      "path": "/terms",
+      "title": "Terms of Service",
+      "description": "Terms and conditions",
+      "component": "policy-page",
+      "template": "legal"
+    }
+  ],
+  "navigation": {
+    "main": [
+      {
+        "label": "About",
+        "path": "/about",
+        "anchor": "#about"
+      },
+      {
+        "label": "Services",
+        "path": "/services",
+        "anchor": "#services"
+      },
+      {
+        "label": "Research",
+        "path": "/research",
+        "anchor": "#research"
+      },
+      {
+        "label": "Case Studies",
+        "path": "/",
+        "anchor": "#case-studies"
+      },
+      {
+        "label": "Contact",
+        "path": "/contact"
+      }
+    ],
+    "footer": [
+      {
+        "label": "Privacy Policy",
+        "path": "/privacy"
+      },
+      {
+        "label": "Terms of Service",
+        "path": "/terms"
+      },
+      {
+        "label": "Contact",
+        "path": "/contact"
+      }
+    ],
+    "social": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com",
+        "label": "LinkedIn"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com",
+        "label": "Twitter"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://instagram.com",
+        "label": "Instagram"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "service-1",
+      "title": "Individual Consultation",
+      "number": "01",
+      "description": "One-on-one performance psychology consultation sessions",
+      "duration": "60 minutes",
+      "path": "/booking?service=1"
+    },
+    {
+      "id": "service-2",
+      "title": "Team Training",
+      "number": "02",
+      "description": "Comprehensive team performance optimization",
+      "duration": "Varies",
+      "path": "/booking?service=2"
+    },
+    {
+      "id": "service-3",
+      "title": "Executive Coaching",
+      "number": "03",
+      "description": "Personalized executive performance coaching",
+      "duration": "Custom",
+      "path": "/booking?service=3"
+    },
+    {
+      "id": "service-4",
+      "title": "Workshop & Seminars",
+      "number": "04",
+      "description": "Group workshops on performance psychology",
+      "duration": "2-3 hours",
+      "path": "/booking?service=4"
+    }
+  ],
+  "metadata": {
+    "siteName": "Dr. Joshua Oparachukwu",
+    "siteDescription": "Performance Psychology Services",
+    "defaultLayout": "main",
+    "canonical": "https://drjoshuaoparachukwu.com",
+    "language": "en",
+    "analytics": {
+      "enabled": true,
+      "googleAnalyticsId": "G-XXXXXXXXXX"
+    }
+  }
+}
